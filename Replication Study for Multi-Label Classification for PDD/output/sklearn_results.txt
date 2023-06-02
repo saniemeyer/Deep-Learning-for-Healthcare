@@ -1,0 +1,100 @@
+Experiment: Imbalanced Multi-Label
+Execution Time (Mins): 3.6
+Model  Subset Accuracy  Hamming Score  Binary Accuracy
+   DT         0.268351       0.597149         0.694206
+  GBM         0.381649       0.682010         0.767443
+  MLP         0.375567       0.681478         0.770330
+   RF         0.371340       0.674768         0.757278
+  SVM         0.291443       0.664725         0.747814
+
+
+Experiment: Imbalanced Multi-Class
+Execution Time (Mins): 5.6
+Model  Accuracy
+   DT  0.280928
+  GBM  0.344330
+  MLP  0.396289
+   RF  0.353299
+  SVM  0.425258
+
+
+Experiment: Balanced Multi-Label
+Execution Time (Mins): 7.0
+Model  Subset Accuracy  Balanced Accuracy  Hamming Score  Binary Accuracy
+   DT         0.561646           0.562343       0.734429         0.812214
+  GBM         0.482881           0.484310       0.711084         0.808329
+  MLP         0.386255           0.386973       0.641468         0.768568
+   RF         0.606502           0.607646       0.774630         0.842091
+  SVM         0.226667           0.225426       0.568736         0.704082
+
+
+Experiment: Balanced Multi-Class
+Execution Time (Mins): 10.3
+Model  Accuracy  Balanced Accuracy
+   DT  0.558230           0.558194
+  GBM  0.598395           0.598458
+  MLP  0.478313           0.478542
+   RF  0.624568           0.624562
+  SVM  0.520165           0.520256
+
+
+Experiment: Imbalanced Single-Label
+Execution Time (Mins): 13.4
+Model             Target  Accuracy
+   DT               ADHD  0.636082
+   DT            Bipolar  0.618660
+   DT           Insomnia  0.618660
+   DT      Schizophrenia  0.895155
+   DT  Vascular Dementia  0.727835
+  GBM               ADHD  0.710515
+  GBM            Bipolar  0.708866
+  GBM           Insomnia  0.708866
+  GBM      Schizophrenia  0.931649
+  GBM  Vascular Dementia  0.791649
+  MLP               ADHD  0.700928
+  MLP            Bipolar  0.699588
+  MLP           Insomnia  0.699588
+  MLP      Schizophrenia  0.931134
+  MLP  Vascular Dementia  0.803196
+   RF               ADHD  0.686804
+   RF            Bipolar  0.698144
+   RF           Insomnia  0.698144
+   RF      Schizophrenia  0.937938
+   RF  Vascular Dementia  0.797113
+  SVM               ADHD  0.655876
+  SVM            Bipolar  0.725361
+  SVM           Insomnia  0.725361
+  SVM      Schizophrenia  0.940619
+  SVM  Vascular Dementia  0.691753
+
+
+Experiment: Balanced Single-Label
+Execution Time (Mins): 19.9
+Model             Target  Accuracy
+   DT               ADHD  0.804198
+   DT            Bipolar  0.751481
+   DT           Insomnia  0.751481
+   DT      Schizophrenia  0.889259
+   DT  Vascular Dementia  0.845761
+  GBM               ADHD  0.815967
+  GBM            Bipolar  0.746379
+  GBM           Insomnia  0.746379
+  GBM      Schizophrenia  0.903992
+  GBM  Vascular Dementia  0.838642
+  MLP               ADHD  0.806461
+  MLP            Bipolar  0.696790
+  MLP           Insomnia  0.696790
+  MLP      Schizophrenia  0.882551
+  MLP  Vascular Dementia  0.810206
+   RF               ADHD  0.831770
+   RF            Bipolar  0.795802
+   RF           Insomnia  0.795802
+   RF      Schizophrenia  0.924938
+   RF  Vascular Dementia  0.876461
+  SVM               ADHD  0.704239
+  SVM            Bipolar  0.666379
+  SVM           Insomnia  0.666379
+  SVM      Schizophrenia  0.871317
+  SVM  Vascular Dementia  0.607984
+
+
