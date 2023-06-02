@@ -1,4 +1,4 @@
-# Replication study for "Application of deep and machine learning techniques for multi-label classification performance on psychotic disorder diseases",by Elujide et al, 2021
+# Replication study for "Application of deep and machine learning techniques for multi-label classification performance on psychotic disorder diseases," by Elujide et al, 2021
 
 The original paper used two separate environments for its experiments: A Google Colab Notebook running Python 3.6 and a local installation of Python 3.7 running on a Windows 10 workstation.
 
